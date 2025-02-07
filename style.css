@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.race-track {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.lane {
+    width: 200px;
+    border-right: 2px solid #000;
+    position: relative;
+    height: 400px;
+}
+
+.horse {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    transition: bottom 0.5s linear;
+}
+
+.controls {
+    margin-top: 20px;
+}
